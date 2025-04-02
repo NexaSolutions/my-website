@@ -299,9 +299,9 @@ let countersAnimated = false;
 
 window.addEventListener('scroll', () => {
     if (!countersAnimated && aboutSection && elementInView(aboutSection)) {
-        animateCounter('counter-clients', 0, 150, 2000);
-        animateCounter('counter-projects', 0, 200, 2000);
-        animateCounter('counter-years', 0, 5, 2000);
+        animateCounter('counter-clients', 0, 5, 2000);
+        animateCounter('counter-projects', 0, 15, 2000);
+        animateCounter('counter-years', 0, 1, 2000);
         animateCounter('counter-team', 0, 20, 2000);
         countersAnimated = true;
     }
